@@ -7,7 +7,7 @@
         xmlns:materialDesign="http://materialdesigninxaml.net/winfx/xaml/themes"
         mc:Ignorable="d"
         Title="MainWindow" Height="600" Width="400" WindowStartupLocation="CenterScreen" ResizeMode="NoResize" WindowStyle="None">
-    <Grid Background="#FF4B1776">
+    <Grid Background="#FF410A66">
         <StackPanel Margin="50">
             <Image Source="/Assets/login.png" Width="96" Height="96"></Image>
             <Border Background="White" Margin="10 20" CornerRadius="5">
@@ -20,7 +20,7 @@
                     <TextBox Margin="15" Style="{StaticResource MaterialDesignFloatingHintTextBox}" materialDesign:HintAssist.Hint="Summoner"></TextBox>
                     <StackPanel Orientation="Horizontal" HorizontalAlignment="Center">
                         <Button Margin="15 50" Content="CANCEL"></Button>
-                        <Button Margin="15 50" Content="SIGN UP"></Button>
+                        <Button Margin="15 50" Content="SIGN UP" Click="ButtonSignUp_OnClick"/>
                     </StackPanel>
                 </StackPanel>
             </Border>

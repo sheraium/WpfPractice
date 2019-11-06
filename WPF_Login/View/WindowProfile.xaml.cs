@@ -10,26 +10,18 @@ using System.Windows.Documents;
 using System.Windows.Input;
 using System.Windows.Media;
 using System.Windows.Media.Imaging;
-using System.Windows.Navigation;
 using System.Windows.Shapes;
-using WPF_Login.View;
 
-namespace WPF_Login
+namespace WPF_Login.View
 {
     /// <summary>
-    /// Interaction logic for MainWindow.xaml
+    /// Interaction logic for WindowProfile.xaml
     /// </summary>
-    public partial class MainWindow : Window
+    public partial class WindowProfile : Window
     {
-        public MainWindow()
+        public WindowProfile()
         {
             InitializeComponent();
-        }
-
-        private void ButtonSignUp_OnClick(object sender, RoutedEventArgs e)
-        {
-            var profile = new WindowProfile();
-            profile.Show();
         }
     }
 }
