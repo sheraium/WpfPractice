@@ -8,7 +8,7 @@
         Title="MainWindow" Height="350" Width="525">
     <Grid>
         <Canvas Name="cnv" Background="Transparent"  HorizontalAlignment="Left" Height="299" Margin="10,10,0,0" VerticalAlignment="Top" Width="497"
-                MouseLeftButtonDown="Cnv_OnMouseLeftButtonDown" MouseMove="Cnv_OnMouseMove">
+                MouseLeftButtonDown="Cnv_OnMouseLeftButtonDown" MouseMove="Cnv_OnMouseMove" MouseLeftButtonUp="Cnv_OnMouseLeftButtonUp">
         </Canvas>
     </Grid>
 </Window>
