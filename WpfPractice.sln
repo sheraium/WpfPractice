@@ -27,6 +27,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ZoomInOut", "ZoomInOut\Zoom
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CustomControl", "CustomControl\CustomControl.csproj", "{EDBAEB47-59EC-4A1D-936C-AB7706F67E22}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Canvas", "Canvas\Canvas.csproj", "{76D6FA1F-5B7C-4E24-90E4-951A27513FF8}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -81,6 +83,10 @@ Global
 		{EDBAEB47-59EC-4A1D-936C-AB7706F67E22}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{EDBAEB47-59EC-4A1D-936C-AB7706F67E22}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{EDBAEB47-59EC-4A1D-936C-AB7706F67E22}.Release|Any CPU.Build.0 = Release|Any CPU
+		{76D6FA1F-5B7C-4E24-90E4-951A27513FF8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{76D6FA1F-5B7C-4E24-90E4-951A27513FF8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{76D6FA1F-5B7C-4E24-90E4-951A27513FF8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{76D6FA1F-5B7C-4E24-90E4-951A27513FF8}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
