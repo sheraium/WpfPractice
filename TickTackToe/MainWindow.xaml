@@ -1,0 +1,47 @@
+﻿<Window x:Class="TickTackToe.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:TickTackToe"
+        mc:Ignorable="d"
+        Title="Tick tack toe" Height="450" Width="800">
+    <Grid>
+        <Border BorderBrush="Black" BorderThickness="2" Width="100" Height="100" Margin="138,36,554,283">
+            <Canvas Background="Transparent" Height="100" Width="100"
+                   MouseDown="Canvas_OnMouseDown"></Canvas>
+        </Border>
+        <Border BorderBrush="Black" BorderThickness="2" Width="100" Height="100" Margin="238,36,454,283">
+            <Canvas Background="Transparent" Height="100" Width="100"
+                   MouseDown="Canvas_OnMouseDown"></Canvas>
+        </Border>
+        <Border BorderBrush="Black" BorderThickness="2" Width="100" Height="100" Margin="338,36,354,283">
+            <Canvas Background="Transparent" Height="100" Width="100"
+                   MouseDown="Canvas_OnMouseDown"></Canvas>
+        </Border>
+        <Border BorderBrush="Black" BorderThickness="2" Width="100" Height="100" Margin="138,136,554,183">
+            <Canvas Background="Transparent" Height="100" Width="100"
+                   MouseDown="Canvas_OnMouseDown"></Canvas>
+        </Border>
+        <Border BorderBrush="Black" BorderThickness="2" Width="100" Height="100" Margin="238,136,454,183">
+            <Canvas Background="Transparent" Height="100" Width="100"
+                   MouseDown="Canvas_OnMouseDown"></Canvas>
+        </Border>
+        <Border BorderBrush="Black" BorderThickness="2" Width="100" Height="100" Margin="338,136,354,183">
+            <Canvas Background="Transparent" Height="100" Width="100"
+                   MouseDown="Canvas_OnMouseDown"></Canvas>
+        </Border>
+        <Border BorderBrush="Black" BorderThickness="2" Width="100" Height="100" Margin="138,236,554,83">
+            <Canvas Background="Transparent" Height="100" Width="100"
+                   MouseDown="Canvas_OnMouseDown"></Canvas>
+        </Border>
+        <Border BorderBrush="Black" BorderThickness="2" Width="100" Height="100" Margin="238,236,454,83">
+            <Canvas Background="Transparent" Height="100" Width="100"
+                   MouseDown="Canvas_OnMouseDown"></Canvas>
+        </Border>
+        <Border BorderBrush="Black" BorderThickness="2" Width="100" Height="100" Margin="338,236,354,83">
+            <Canvas Background="Transparent" Height="100" Width="100"
+                   MouseDown="Canvas_OnMouseDown"></Canvas>
+        </Border>
+    </Grid>
+</Window>
