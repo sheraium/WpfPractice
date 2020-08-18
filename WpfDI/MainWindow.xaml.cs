@@ -20,9 +20,20 @@ namespace WpfDI
     /// </summary>
     public partial class MainWindow : Window
     {
-        public MainWindow()
+        private readonly ITestService _testService;
+
+        public MainWindow(ITestService testService)
         {
+            _testService = testService;
             InitializeComponent();
+        }
+
+        private async void ButtonBase_OnClick(object sender, RoutedEventArgs e)
+        {
+            _testService.Do();
+            var result = _testService.Get();
+            await _testService.DoAsync();
+            var resultAsync = await _testService.GetAsync();
         }
     }
 }
